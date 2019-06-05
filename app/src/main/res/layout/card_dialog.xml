@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView2"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:paddingBottom="16dp"
+        android:paddingStart="16dp"
+        android:paddingTop="16dp"
+        android:text="Auto Respond on SMS"
+        android:textAppearance="@android:style/TextAppearance.Material.Title"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/edit_title"
+        style="@android:style/Widget.Material.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/contact_name"
+        android:maxLength="20"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/edit_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:hint="@string/phone"
+        android:inputType="phone"
+        android:digits="+()* 1234567890-"
+        android:maxLength="14"
+        />
+
+    <EditText
+        android:id="@+id/edit_message"
+        android:inputType="textMultiLine"
+        style="@android:style/Widget.Material.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:maxLength="120"
+        android:ems="30"
+        android:hint="@string/message"/>
+
+
+
+
+</LinearLayout>

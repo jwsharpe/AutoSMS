@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="fab_margin">12dp</dimen>
+    <dimen name="compressed_card_accent_radius">15pt</dimen>
+</resources>
